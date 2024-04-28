@@ -8,6 +8,7 @@ async function add(title: string, description: string) {
             description
         });
         window.alert("Todo added successfully");
+        window.location.reload();
     } catch (error) {
         console.log("Error adding todo:", error);
         window.alert("Error adding todo. Please try again later.");
